@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="material-icons.css">
+</head>
+
+<body>
+    <section class="main-section">
+        <!-- блок добавления задачи -->
+        <div class="add-task-block clearfix">
+            <span class="title">ДОБАВИТЬ ЗАДАЧУ</span>
+            <input id="new-task" type="text">
+            <button id="add" class="material-icons add">
+                   <i class='material-icons'>add_circle_outline</i>
+            </button>
+        </div>
+
+        <!-- блок текущих задач -->
+        <div class="unfinished-list-block">
+            <span class="title">СПИСОК ЗАДАЧ</span>
+            <button id="unfinished-list-del" class="material-icons delete-all">
+               <i class='material-icons'>delete_sweep</i>
+           </button>
+            <ul id="unfinished-tasks">
+                <!-- сюда помещаются текущие -->
+            </ul>
+        </div>
+
+        <!-- блок выполненных задач -->
+        <div class="finished-list-block">
+            <span class="title">ЗАВЕРШЕННЫЕ ЗАДАЧИ</span>
+            <button id="finished-list-del" class="material-icons delete-all">
+               <i class='material-icons'>delete_sweep</i>
+           </button>
+            <ul id="finished-tasks">
+                <!-- сюда помещаются выполненные -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- скрипты -->
+    <script src="index.js"></script>
+</body>
+</html>

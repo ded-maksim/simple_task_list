@@ -1,0 +1,21 @@
+{
+    "main": "index.html",
+    "name": "simple_list",
+    "description": "simple_task_list",
+    "version": "0.0.1",
+    "keywords": ["test", "test"],
+    "window": {
+        "title": "simple list",
+        "icon": "icon.png",
+        "toolbar": false,
+        "frame": true,
+        "width": 540,
+        "height": 600,
+        "position": "center",
+        "min_width": 540,
+        "min_height": 540,
+        "max_width": 1600,
+        "max_height": 1800
+    },
+    "author": "ded.maksim"
+}
